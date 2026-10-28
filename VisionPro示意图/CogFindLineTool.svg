@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='500' viewBox='0 0 900 500'>
+  <defs>
+    <marker id='arrowRed' markerWidth='10' markerHeight='10' refX='8' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='#dc2626'/></marker>
+    <marker id='arrowGreen' markerWidth='10' markerHeight='10' refX='8' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='#16a34a'/></marker>
+  </defs>
+  <rect width='900' height='500' rx='20' fill='white'/>
+  <rect x='24' y='24' width='852' height='76' rx='14' fill='#eff6ff'/>
+  <text x='52' y='58' font-family='Microsoft YaHei, Segoe UI, sans-serif' font-size='18' font-weight='700' fill='#2563eb' text-anchor='start'>几何查找</text>
+  <text x='52' y='86' font-family='Microsoft YaHei, Segoe UI, sans-serif' font-size='26' font-weight='700' fill='#0f172a' text-anchor='start'>CogFindLineTool</text>
+  <text x='848' y='72' font-family='Microsoft YaHei, Segoe UI, sans-serif' font-size='16' font-weight='500' fill='#64748b' text-anchor='end'>VisionPro 示意图</text>
+  <rect x='55' y='120' width='790' height='290' rx='16' fill='#ffffff' stroke='#cbd5e1' stroke-width='2'/>
+  <line x1='210' y1='305' x2='690' y2='185' stroke='#dc2626' stroke-width='6' stroke-linecap='round'/><circle cx='260' cy='295' r='8' fill='#64748b'/><circle cx='330' cy='270' r='8' fill='#64748b'/><circle cx='430' cy='250' r='8' fill='#64748b'/><circle cx='540' cy='220' r='8' fill='#64748b'/><circle cx='625' cy='200' r='8' fill='#64748b'/><text x='450' y='390' font-family='Microsoft YaHei, Segoe UI, sans-serif' font-size='18' font-weight='500' fill='#64748b' text-anchor='middle'>边缘点 → 拟合/查找到的长直线</text>
+  <rect x='55' y='435' width='790' height='36' rx='10' fill='#f8fafc'/>
+  <text x='450' y='459' font-family='Microsoft YaHei, Segoe UI, sans-serif' font-size='16' font-weight='500' fill='#475569' text-anchor='middle'>从边缘点中查找直线</text>
+</svg>
